@@ -1,0 +1,19 @@
+import trinagel.triangle;
+
+public class Main {
+    public static void main(String[] args) {
+       triangle трикутник  = new  triangle ();
+        трикутник.width = 10;
+        System.out.println(трикутник.width);
+        трикутник.length = 5;
+        System.out.println(трикутник.length);
+
+        triangle area = new  triangle ();
+        трикутник.area = 10 * 5;
+        System.out.println(трикутник.area);
+        triangle perimeter = new  triangle ();
+        трикутник.perimeter = 10 + 5;
+        System.out.println(трикутник.perimeter);
+
+    }
+}
